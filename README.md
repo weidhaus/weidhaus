@@ -5,7 +5,7 @@
 🌱 I’m currently learning to program Python and improving on a V1 Version of the G Suite Tool by moving it to Python.
 📫 How to reach me: Write me an email at jcs@hellofresh.com
 
-[![Visits Badge](https://badges.pufler.dev/visits/{jcsh})
+[![Visits Badge](https://badges.pufler.dev/visits/{jcsh})]
 
 
 
