@@ -1,5 +1,12 @@
 ### Hi there 👋
-![Visitor Count](https://profile-counter.glitch.me/{jchs}/count.svg)
+
+
+🔭 I’m currently working on a tool which helps G Suite Admins to back up user accounts to Drive.
+🌱 I’m currently learning to program Python and improving on a V1 Version of the G Suite Tool by moving it to Python.
+📫 How to reach me: Write me an email at jcs@hellofresh.com
+
+[![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges)](https://badges.pufler.dev)
+
 
 
 <!--
@@ -7,12 +14,9 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
-- 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
