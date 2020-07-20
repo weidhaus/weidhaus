@@ -1,6 +1,6 @@
 # JCHS GitHub Profile
 
-![alt text](https://github.com/[jchs]/[jchs]/cover.png?raw=true)
+![alt text](https://github.com/jchs/jchs/blob/master/cover.png)
 
 [![Visits Badge](https://badges.pufler.dev/visits/jchs/jchs)](https://badges.pufler.dev)
 
