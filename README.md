@@ -10,4 +10,5 @@ Hi there 👋
 
 🌱 I’m currently learning to program Python and improving on a bash version of the G Suite Tool by moving it to Python.
 
-📫 How to reach me: jcs@hellofresh.com
+📫 How to reach me: jcs@hellofresh.com | Discord: jchs#2049
+
