@@ -4,11 +4,9 @@
 
 [![Visits Badge](https://badges.pufler.dev/visits/jchs/jchs)](https://badges.pufler.dev)
 
-Hi there 👋
+Hey there!
 
-🔭 I’m currently working on a tool which helps G Suite Admins to back up user accounts to Drive.
-
-🌱 I’m currently learning to program Python and improving on a bash version of the G Suite Tool by moving it to Python.
+I've created a Google Workspace Tool to help companies backup and archive their users.
 
 📫 How to reach me: jcs@hellofresh.com | Discord: jchs#2049
 
