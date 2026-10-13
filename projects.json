@@ -8,7 +8,7 @@
       "service": "automation",
       "audiences": ["smb", "founder"],
       "pitch_de": "Leads aus Telefonie, Formularen und Tabellen landen automatisch im CRM, mit Status-Updates und Nachfass-Logik.",
-      "summary_en": "Lead import, call tagging, deal-stage logic and follow-up tasks for a sales team, as ten n8n workflows around Pipedrive.",
+      "summary_en": "Lead import, call tagging, deal-stage logic and follow-up tasks for a sales team, built on n8n and Pipedrive.",
       "stack": ["n8n", "Pipedrive", "Google Sheets", "Webhooks"],
       "repo": null,
       "site": null,

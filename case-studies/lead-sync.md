@@ -4,7 +4,7 @@ Neue Leads kommen in einer Tabelle an und müssen an die Lead-Schnittstelle eine
 
 ## Was ich gebaut habe
 
-Einen kleinen Dienst, der rund um die Uhr ohne Aufsicht läuft:
+Einen kleinen Dienst, der beim Kunden produktiv läuft, rund um die Uhr und ohne Aufsicht:
 
 - **Alle fünf Minuten** liest er die Tabelle und schickt neue Leads an den Partner.
 - **Nie doppelt:** Jede Zeile bekommt einen Fingerabdruck aus E-Mail, Telefonnummer, Datum und Name. Was einmal übergeben wurde, geht nicht noch einmal raus.

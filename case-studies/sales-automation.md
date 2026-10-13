@@ -4,7 +4,7 @@ Ein Vertriebsteam bekommt seine Leads aus mehreren Richtungen: aus Werbeanzeigen
 
 ## Was ich gebaut habe
 
-Zehn n8n-Workflows, die den Weg vom ersten Kontakt bis zum Termin abdecken:
+n8n-Workflows, die den ganzen Weg vom ersten Kontakt bis zum Termin abdecken:
 
 - **Lead-Import:** Alle zwei Minuten liest ein Workflow die Übergabetabelle und legt Person und Deal in Pipedrive an. Er sucht vorhandene Kontakte getrennt nach E-Mail und Telefonnummer. Widersprechen sich die Treffer, entscheidet ein Mensch. Gibt es schon einen offenen Deal, bekommt dieser eine Notiz statt eines zweiten Deals. Telefonnummern werden in ein einheitliches internationales Format gebracht.
 - **Anruf-Auswertung:** Wird ein Anruf in der Telefonanlage (Aircall) markiert, zählt der Workflow die Kontaktversuche, setzt den Lead-Status und schiebt den Deal nur vorwärts, nie zurück. „Nummer falsch“ schließt den Deal als verloren. Für den Deal-Owner entsteht eine Rückruf-Aufgabe zum nächsten Werktag.

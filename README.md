@@ -11,7 +11,7 @@ Freelance work and case studies: [weidhaus.com](https://weidhaus.com) · Contact
 <!-- projects:start -->
 ### Process automation
 
-- Vertriebsautomatisierung (client project): Lead import, call tagging, deal-stage logic and follow-up tasks for a sales team, as ten n8n workflows around Pipedrive. `n8n · Pipedrive · Google Sheets · Webhooks`
+- Vertriebsautomatisierung (client project): Lead import, call tagging, deal-stage logic and follow-up tasks for a sales team, built on n8n and Pipedrive. `n8n · Pipedrive · Google Sheets · Webhooks`
 - Lead-Sync (client project): Unattended spreadsheet-to-API lead forwarder with idempotent delivery, stored proof of every request and ntfy alerts. `Go · SQLite · Docker · ntfy`
 
 ### AI tools, self-hosted
