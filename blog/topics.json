@@ -1,0 +1,51 @@
+[
+  {
+    "stream": "ki-kmu",
+    "keyword": "prozesse automatisieren beispiele",
+    "angle": "Zwei echte Beispiele aus Kundenprojekten: Leads aus Tabelle, Telefon und Terminbuchung landen überwacht im CRM, und eine Tabelle wird zuverlässig an die Schnittstelle eines Partners übergeben. Woran man erkennt, welcher eigene Ablauf sich zuerst lohnt.",
+    "intent": "Welche Abläufe in meinem Betrieb kann ich automatisieren, und wie sieht das konkret aus?",
+    "sources": ["case-studies/sales-automation.md", "case-studies/lead-sync.md"]
+  },
+  {
+    "stream": "projekt",
+    "keyword": "paperless ngx ki",
+    "angle": "Wie steuerdocs die Belege eines Steuerjahres in Paperless-NGX von einem Sprachmodell vorsortieren lässt, warum Unsicheres auf einer Prüfliste landet, und welche Daten dabei das eigene Netz verlassen.",
+    "intent": "Wie verbinde ich Paperless-NGX mit KI, und was passiert mit meinen Dokumenten?",
+    "sources": ["case-studies/steuerdocs.md"]
+  },
+  {
+    "stream": "ki-kmu",
+    "keyword": "ki im unternehmen einführen",
+    "angle": "Ein Einstieg ohne Großprojekt: KI sortiert vor, ein Mensch entscheidet die Grenzfälle, nichts geht verloren. Am Beispiel einer Prüfliste und einer Gesprächsauswertung, mit den Fragen, die man vorher klären sollte.",
+    "intent": "Wo fange ich mit KI in einem kleinen Unternehmen an, ohne mich zu verrennen?",
+    "sources": ["case-studies/steuerdocs.md", "case-studies/sales-automation.md"]
+  },
+  {
+    "stream": "projekt",
+    "keyword": "meeting transkription lokal",
+    "angle": "Wie Meetfacts Meetings auf dem Mac aufnimmt und transkribiert, ohne Audio ins Netz zu schicken: zwei Spuren, Spracherkennung auf dem Gerät, Sprechertrennung, und was trotzdem online geht.",
+    "intent": "Wie transkribiere ich Meetings, ohne die Aufnahme in eine Cloud zu geben?",
+    "sources": ["case-studies/meetfacts.md"]
+  },
+  {
+    "stream": "ki-kmu",
+    "keyword": "ki im unternehmen datenschutz",
+    "angle": "Nicht 'ist das erlaubt', sondern 'welche Daten gehen wohin': der Unterschied zwischen KI auf dem eigenen Gerät und KI über einen Anbieter, an zwei eigenen Werkzeugen gezeigt, und die Fragen für die Datenschutzberatung.",
+    "intent": "Was muss ich beim Datenschutz bedenken, wenn ich KI im Betrieb nutze?",
+    "sources": ["case-studies/meetfacts.md", "case-studies/steuerdocs.md"]
+  },
+  {
+    "stream": "projekt",
+    "keyword": "n8n workflows",
+    "angle": "Was einen n8n-Workflow im Vertrieb zuverlässig macht: Sperren gegen doppelte Verarbeitung, Protokollzeilen, ein Wächter für ausbleibende Leads und ein Fehler-Workflow, am Beispiel eines Kundenprojekts.",
+    "intent": "Wie baue ich n8n-Workflows, die im Alltag nicht still kaputtgehen?",
+    "sources": ["case-studies/sales-automation.md"]
+  },
+  {
+    "stream": "ki-kmu",
+    "keyword": "ki automatisierung für kleine unternehmen",
+    "angle": "Erst automatisieren, dann KI: Die meiste Entlastung kommt aus festen Regeln, KI nur dort, wo Text verstanden werden muss. Mit der Grenze zwischen beidem an zwei Projekten.",
+    "intent": "Brauche ich für Automatisierung überhaupt KI, und wo lohnt sie sich?",
+    "sources": ["case-studies/sales-automation.md", "case-studies/lead-sync.md", "case-studies/steuerdocs.md"]
+  }
+]

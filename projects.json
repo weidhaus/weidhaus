@@ -1,5 +1,5 @@
 {
-  "$comment": "Single source for the project showcase: weidhaus.com reads this file, README.md is generated from it (npm run readme). Client entries stay anonymous until the client agrees to be named.",
+  "$comment": "Single source for the project showcase: weidhaus.com reads this file, README.md is generated from it (node scripts/build-readme.mjs). Entries with caseStudy: true have a German case study in case-studies/<id>.md. Client entries stay anonymous until the client agrees to be named.",
   "projects": [
     {
       "id": "sales-automation",
@@ -8,7 +8,7 @@
       "service": "automation",
       "audiences": ["smb", "founder"],
       "pitch_de": "Leads aus Telefonie, Formularen und Tabellen landen automatisch im CRM, mit Status-Updates und Nachfass-Logik.",
-      "summary_en": "Lead routing, CRM sync and follow-up logic for a sales team, built as ~160 n8n workflows.",
+      "summary_en": "Lead import, call tagging, deal-stage logic and follow-up tasks for a sales team, as ten n8n workflows around Pipedrive.",
       "stack": ["n8n", "Pipedrive", "Google Sheets", "Webhooks"],
       "repo": null,
       "site": null,
@@ -61,7 +61,7 @@
       "audiences": ["smb"],
       "pitch_de": "KI sortiert alle Belege eines Steuerjahres in Paperless vor, Unsicheres landet in einer Prüfliste.",
       "summary_en": "Self-hosted LLM triage for Paperless-NGX: tags every document of a tax year, recall-first, with a review queue.",
-      "stack": ["Python", "Paperless-NGX", "Claude / OpenAI / Gemini", "Docker"],
+      "stack": ["Python", "Paperless-NGX", "LLM APIs", "Docker"],
       "repo": null,
       "site": null,
       "caseStudy": true

@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "readme": "node scripts/build-readme.mjs",
+    "blog": "node scripts/blog.mjs",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.133.0"
+  }
+}

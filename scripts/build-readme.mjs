@@ -7,7 +7,7 @@ const END = '<!-- projects:end -->'
 
 const SECTIONS = [
   ['automation', 'Process automation'],
-  ['ai', 'AI tools, local-first'],
+  ['ai', 'AI tools, self-hosted'],
   ['workspace', 'Google Workspace & HR sync'],
   ['product', 'Web & native products'],
 ]
