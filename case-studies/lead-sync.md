@@ -1,26 +1,23 @@
-## Ausgangslage
+## Das Problem mit „angekommen“
 
-Neue Leads kommen in einer Tabelle an und müssen an die Lead-Schnittstelle eines Partners. Diese Schnittstelle prüft nur, ob alle Felder vorhanden sind. Sie prüft keine Inhalte und erkennt keine Dubletten: Ein Lead, der zweimal geschickt wird, wird zweimal angenommen. Eine Lead-Nummer als Quittung gibt es auch nicht. Den Nachweis, was wann übergeben wurde, muss also die eigene Seite führen.
+Eine Tabelle, eine Schnittstelle bei einem Partner, dazwischen Leads. Klingt nach einem Nachmittag Arbeit. Der Haken: Die Schnittstelle nimmt alles an. Sie prüft nur, ob die Felder ausgefüllt sind. Wer einen Lead zweimal schickt, hat ihn dort zweimal. Eine Quittung gibt es nicht. Wenn später jemand fragt, was wann geliefert wurde, hat die Gegenseite keine Antwort. Also muss die Antwort auf unserer Seite liegen.
 
-## Was ich gebaut habe
+## Lieber einmal zu wenig als doppelt
 
-Einen kleinen Dienst, der beim Kunden produktiv läuft, rund um die Uhr und ohne Aufsicht:
+Die wichtigste Entscheidung in diesem Projekt war eine Abwägung. Bleibt nach einem Versand unklar, ob er angekommen ist, gibt es zwei Wege: noch einmal schicken und eine Dublette riskieren, oder anhalten und nachsehen. Lead-Sync hält an. Ein doppelter Lead liegt beim Partner und lässt sich nicht zurückholen. Ein angehaltener kostet eine Minute Prüfung.
 
-- **Alle fünf Minuten** liest er die Tabelle und schickt neue Leads an den Partner.
-- **Nie doppelt:** Jede Zeile bekommt einen Fingerabdruck aus E-Mail, Telefonnummer, Datum und Name. Was einmal übergeben wurde, geht nicht noch einmal raus.
-- **Lieber einmal zu wenig als doppelt:** Ist unklar, ob eine Übergabe angekommen ist, schickt der Dienst sie nicht blind erneut, sondern markiert sie zur Prüfung.
-- **Lückenloser Nachweis:** Vor jedem Versand speichert er den exakten Inhalt der Anfrage, dazu Status, Antwortcode, Anzahl der Versuche und Zeitpunkt. Daraus entstehen ein täglicher CSV-Export und Berichte auf Abruf.
-- **Schutz vor Unfällen:** Beim ersten Start gelten alle vorhandenen Zeilen als erledigt. Sehen in einem Durchlauf mehr als 25 Zeilen neu aus, etwa weil jemand die Tabelle umsortiert hat, sendet der Dienst nichts und meldet sich.
+Daraus folgt der Rest. Jede Zeile bekommt einen Fingerabdruck aus E-Mail, Telefonnummer, Datum und Name, und was einmal raus ist, geht nie wieder raus. Vor jedem Versand speichert der Dienst den genauen Inhalt der Anfrage, dazu Antwortcode, Versuche und Zeitpunkt. Aus diesem Protokoll entstehen der tägliche CSV-Export und jeder Bericht, den jemand nachfragt.
 
-## Wie es zuverlässig läuft
+## Gebaut für den Tag, an dem jemand die Tabelle umsortiert
 
-- Alarme kommen als Push-Nachricht über einen eigenen ntfy-Server, jede Alarmart höchstens einmal pro Stunde, dazu eine tägliche Zusammenfassung.
-- Vorübergehende Fehler werden mit wachsendem Abstand bis zu dreimal pro Durchlauf wiederholt, über mehrere Durchläufe bis zu fünfmal. Danach wird der Lead als gescheitert gemeldet.
-- Der Container läuft ohne Root-Rechte, mit schreibgeschütztem Dateisystem und ohne offene Ports. Test- und Produktivbetrieb sind getrennt und lassen sich nicht verwechseln.
-- 172 automatische Tests laufen ohne Internet gegen nachgebaute Server.
+Tabellen bearbeiten Menschen. Irgendwann sortiert jemand um, und plötzlich sehen hunderte alte Zeilen neu aus. Deshalb sendet Lead-Sync nichts, wenn in einem Durchlauf mehr als 25 Zeilen neu erscheinen, und meldet sich stattdessen. Beim ersten Start gilt der vorhandene Bestand als erledigt.
 
-## Was das für Sie heißt
+Meldungen kommen als Push über einen eigenen ntfy-Server, jede Alarmart höchstens einmal pro Stunde, dazu eine tägliche Zusammenfassung. Vorübergehende Fehler wiederholt der Dienst mit wachsendem Abstand, bevor er einen Lead als gescheitert meldet. Er läuft ohne Root-Rechte und ohne offene Ports, und 172 Tests prüfen ihn ohne Internet gegen nachgebaute Server.
 
-Viele Übergaben zwischen Firmen laufen über „Tabelle rein, Schnittstelle raus“. Das ist schnell gebaut und schwer zu kontrollieren. Dieser Dienst zeigt, wie es zuverlässig geht: Jede Lieferung ist belegbar, Dubletten kommen gar nicht erst raus, und wenn etwas hakt, erfahren Sie es, bevor der Partner anruft.
+So läuft er beim Kunden produktiv, alle fünf Minuten, ohne dass jemand danebensitzt.
 
-Der Kunde wird hier nicht genannt.
+## Für Ihre Übergaben
+
+„Tabelle rein, Schnittstelle raus“ ist in vielen Firmen Alltag und selten kontrolliert. Wenn bei Ihnen Daten zwischen Systemen wandern und niemand sicher sagen kann, was wirklich angekommen ist, ist das genau die Art Problem, die ich gern löse.
+
+Den Kunden nenne ich hier nicht.

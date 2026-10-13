@@ -1,23 +1,19 @@
-## Die Idee
+## Gespräche, die den Raum nicht verlassen sollen
 
-Meetings aufnehmen und in Text verwandeln, ohne dass das Audio den Rechner verlässt. Viele Transkriptions-Dienste schicken Gespräche in eine Cloud. Für Gespräche mit Kunden, Bewerbern oder Partnern ist das oft genau das, was man nicht will.
+Bewerbungsgespräche, Kundentermine, Verhandlungen: Genau die Meetings, bei denen ein Protokoll am meisten hilft, lädt man ungern bei einem Transkriptionsdienst in der Cloud hoch. Meetfacts nimmt auf, schreibt mit und fasst zusammen, und das Audio verlässt dabei den Mac nicht.
 
-## Was Meetfacts kann
+## Wie es sich anfühlt
 
-- **Zwei Spuren statt einer:** Ihr Mikrofon und der Ton des Meetings werden getrennt aufgenommen. Dafür braucht es keinen zusätzlichen Audiotreiber. So steht im Protokoll sauber, was Sie gesagt haben und was die anderen.
-- **Transkription auf dem Mac:** Ein Spracherkennungsmodell läuft direkt auf dem Gerät und versteht 25 europäische Sprachen, darunter Deutsch.
-- **Wer hat was gesagt:** Die Gegenseite wird nach Stimmen getrennt. Eine Stimme benennen Sie einmal, danach erkennt Meetfacts sie in späteren Meetings wieder.
-- **Zusammenfassung und Aufgaben:** Zusammenfassungen entstehen mit einem Modell auf dem Mac. Aufgaben aus dem Gespräch lassen sich in Apple Erinnerungen übernehmen.
-- **Durchsuchbar:** Alle Mitschriften liegen als Markdown und JSON auf Ihrem Rechner und lassen sich durchsuchen.
+Sie starten die Aufnahme, und Meetfacts nimmt zwei Spuren auf: Ihr Mikrofon und den Ton des Meetings, ohne zusätzlichen Audiotreiber. Deshalb steht im Protokoll später sauber getrennt, was Sie gesagt haben und was die anderen. Die Gegenseite trennt die App nach Stimmen. Eine Stimme benennen Sie einmal, in späteren Meetings erkennt Meetfacts sie wieder.
 
-## Was den Mac verlässt und was nicht
+Die Spracherkennung läuft auf dem Gerät und versteht 25 europäische Sprachen, Deutsch eingeschlossen. Auch die Zusammenfassung schreibt ein Modell auf dem Mac. Aufgaben aus dem Gespräch übernehmen Sie in Apple Erinnerungen. Alle Mitschriften liegen als Markdown und JSON auf Ihrem Rechner und sind durchsuchbar.
 
-Die App schickt kein Audio ins Netz. Ins Netz gehen nur die Lizenzprüfung und die Suche nach Updates. Wer Zusammenfassungen über einen eigenen Modell-Server erstellen will, kann das einstellen. Standard ist der eigene Mac, ein anderer Server wird standardmäßig nur verschlüsselt angesprochen. Die Sprachmodelle lädt die App nicht selbst herunter. Sie importieren sie einmal, und die App prüft jede Datei gegen eine Prüfsumme.
+## Was ins Netz geht, und was nicht
 
-## Technik
+Diese Frage soll sich in wenigen Sätzen beantworten lassen. Kein Audio. Ins Netz gehen nur die Lizenzprüfung und die Suche nach Updates. Wer Zusammenfassungen lieber auf einem eigenen Modell-Server erstellt, kann ihn eintragen, und ein Server außerhalb des Macs wird standardmäßig nur verschlüsselt angesprochen. Die Sprachmodelle lädt die App nicht selbst herunter: Sie importieren sie einmal, und Meetfacts prüft jede Datei gegen eine Prüfsumme.
 
-Native Swift-App für macOS 26 auf Apple-Silicon-Macs.
+Meetfacts ist eine native Swift-App für macOS 26 auf Apple-Silicon-Macs.
 
-## Was das für Sie heißt
+## Warum das für Ihr Unternehmen zählt
 
-Meetfacts zeigt, wie ich KI baue, wenn die Daten heikel sind: Die Arbeit passiert dort, wo die Daten schon liegen. Dasselbe Prinzip lässt sich auf Ihre Abläufe übertragen, zum Beispiel auf Gesprächsnotizen im Vertrieb oder auf interne Dokumente.
+KI heißt nicht automatisch, dass Ihre Daten irgendwohin wandern. Wenn die Daten heikel sind, baue ich die Verarbeitung dorthin, wo sie schon liegen. Das gilt für Gesprächsnotizen im Vertrieb genauso wie für interne Dokumente.
