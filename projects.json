@@ -37,7 +37,7 @@
       "summary_en": "Local-first macOS meeting recorder: mic and system audio as separate tracks, on-device transcription, speaker-tagged transcripts.",
       "stack": ["Swift", "macOS", "on-device ASR"],
       "repo": null,
-      "site": null,
+      "site": "https://meetfacts.com",
       "caseStudy": true
     },
     {
@@ -71,7 +71,7 @@
       "name": "meetartifacts",
       "kind": "tool",
       "service": "ai",
-      "audiences": ["smb"],
+      "audiences": [],
       "pitch_de": "Meeting-Notizen landen automatisch beim passenden Deal im CRM.",
       "summary_en": "Matches meeting notes to CRM deals and uploads them, with Google Calendar integration.",
       "stack": ["TypeScript", "HubSpot API", "Google Calendar", "Docker"],
@@ -123,7 +123,7 @@
       "name": "Gartenplaner 3D",
       "kind": "product",
       "service": "product",
-      "audiences": ["founder"],
+      "audiences": [],
       "pitch_de": "Den eigenen Garten im Browser in 3D planen, mit Mengenliste.",
       "summary_en": "Browser-based 3D garden planner: terrain, house, plants, paths, quantity list; runs fully client-side.",
       "stack": ["React", "TypeScript", "Vite", "Cloudflare Workers"],

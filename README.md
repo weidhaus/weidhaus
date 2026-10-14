@@ -16,7 +16,7 @@ Freelance work and case studies: [weidhaus.com](https://weidhaus.com) · Contact
 
 ### AI tools, local-first
 
-- **Meetfacts**: Local-first macOS meeting recorder: mic and system audio as separate tracks, on-device transcription, speaker-tagged transcripts. `Swift · macOS · on-device ASR`
+- **Meetfacts**: Local-first macOS meeting recorder: mic and system audio as separate tracks, on-device transcription, speaker-tagged transcripts. `Swift · macOS · on-device ASR` · [site](https://meetfacts.com)
 - **HoldFn**: Push-to-talk dictation daemon for macOS with on-device transcription; text is inserted at the cursor. `Swift · macOS · on-device ASR` · [site](https://holdfn.com)
 - **steuerdocs**: Self-hosted LLM triage for Paperless-NGX: tags every document of a tax year, recall-first, with a review queue. `Python · Paperless-NGX · Claude / OpenAI / Gemini · Docker`
 - **meetartifacts**: Matches meeting notes to CRM deals and uploads them, with Google Calendar integration. `TypeScript · HubSpot API · Google Calendar · Docker`
