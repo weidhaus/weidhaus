@@ -11,14 +11,14 @@ Freelance work and case studies: [weidhaus.com](https://weidhaus.com) · Contact
 <!-- projects:start -->
 ### Process automation
 
-- Vertriebsautomatisierung (client project): Lead routing, CRM sync and follow-up logic for a sales team, built as ~160 n8n workflows. `n8n · Pipedrive · Google Sheets · Webhooks`
+- Vertriebsautomatisierung (client project): Lead import, call tagging, deal-stage logic and follow-up tasks for a sales team, built on n8n and Pipedrive. `n8n · Pipedrive · Google Sheets · Webhooks`
 - Lead-Sync (client project): Unattended spreadsheet-to-API lead forwarder with idempotent delivery, stored proof of every request and ntfy alerts. `Go · SQLite · Docker · ntfy`
 
-### AI tools, local-first
+### AI tools, self-hosted
 
 - **Meetfacts**: Local-first macOS meeting recorder: mic and system audio as separate tracks, on-device transcription, speaker-tagged transcripts. `Swift · macOS · on-device ASR` · [site](https://meetfacts.com)
 - **HoldFn**: Push-to-talk dictation daemon for macOS with on-device transcription; text is inserted at the cursor. `Swift · macOS · on-device ASR` · [site](https://holdfn.com)
-- **steuerdocs**: Self-hosted LLM triage for Paperless-NGX: tags every document of a tax year, recall-first, with a review queue. `Python · Paperless-NGX · Claude / OpenAI / Gemini · Docker`
+- **steuerdocs**: Self-hosted LLM triage for Paperless-NGX: tags every document of a tax year, recall-first, with a review queue. `Python · Paperless-NGX · LLM APIs · Docker`
 - **meetartifacts**: Matches meeting notes to CRM deals and uploads them, with Google Calendar integration. `TypeScript · HubSpot API · Google Calendar · Docker`
 - **ntfy inbox**: Self-hosted topic inventory and searchable report archive for your own ntfy server, with read-only MCP tools. `Python · MCP · ntfy` · [code](https://github.com/weidhaus/ntfy-inbox)
 
