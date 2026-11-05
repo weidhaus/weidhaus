@@ -14,7 +14,7 @@ Dazu kommen Regeln, die keine Standard-Integration kennt. Im Kalender steht jede
 
 ## Damit es jahrelang läuft
 
-Die Verbindung läuft seit rund zwei Jahren auf einem eigenen Server, ohne Zapier und ohne Kosten pro Vorgang. Namen pflegt das Team nur in HubSpot. Alle sechs Stunden gleicht die Verbindung ab und korrigiert Abweichungen in Monday. Ein Schutz verhindert, dass ein Abgleich massenhaft Einträge löscht. Fällt etwas aus, kommt eine Push-Nachricht. Und jede Änderung an der Verbindung läuft vorher als Probelauf gegen eine Kopie der echten Daten.
+Die Verbindung läuft seit rund einem Jahr auf einem eigenen Server, ohne Zapier und ohne Kosten pro Vorgang. Namen pflegt das Team nur in HubSpot. Alle sechs Stunden gleicht die Verbindung ab und korrigiert Abweichungen in Monday. Ein Schutz verhindert, dass ein Abgleich massenhaft Einträge löscht. Fällt etwas aus, kommt eine Push-Nachricht. Und jede Änderung an der Verbindung läuft vorher als Probelauf gegen eine Kopie der echten Daten.
 
 ## Für Ihre Systeme
 
