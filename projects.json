@@ -28,6 +28,32 @@
       "caseStudy": true
     },
     {
+      "id": "hubspot-monday-sync",
+      "name": "HubSpot-Monday-Sync",
+      "kind": "client",
+      "service": "automation",
+      "audiences": ["smb"],
+      "pitch_de": "HubSpot-Deals stehen automatisch im Monday-Kalender, vom Aufbau bis zum Abbau und mit allen Ausweichterminen.",
+      "summary_en": "One-way HubSpot to Monday sync for an event venue: calendar items from set-up to dismantling, alternative dates as their own items, name reconciliation every 6 hours, self-hosted with push alerts.",
+      "stack": ["TypeScript", "HubSpot API", "Monday API", "Docker", "ntfy"],
+      "repo": null,
+      "site": null,
+      "caseStudy": true
+    },
+    {
+      "id": "hubspot-calendar",
+      "name": "Belegungsplan für HubSpot",
+      "kind": "client",
+      "service": "automation",
+      "audiences": ["smb"],
+      "pitch_de": "Ein Belegungsplan, der live aus HubSpot liest: eine Zeile pro Halle, Buchungen, Optionen und Überschneidungen auf einen Blick.",
+      "summary_en": "Read-only venue booking plan on live HubSpot data: halls as rows, main and alternative dates linked, clashes flagged, insights on capacity and demand; one Cloudflare Worker with an EU-pinned Durable Object.",
+      "stack": ["React", "Cloudflare Workers", "Durable Objects", "HubSpot API"],
+      "repo": null,
+      "site": null,
+      "caseStudy": true
+    },
+    {
       "id": "meetfacts",
       "name": "Meetfacts",
       "kind": "product",
@@ -51,7 +77,7 @@
       "stack": ["Swift", "macOS", "on-device ASR"],
       "repo": null,
       "site": "https://holdfn.com",
-      "caseStudy": false
+      "caseStudy": true
     },
     {
       "id": "steuerdocs",
@@ -90,7 +116,7 @@
       "stack": ["TypeScript", "Cloudflare Workers", "Google Workspace Admin SDK"],
       "repo": "https://github.com/weidhaus/Gmail-Signature-Manager-for-Google-Workspace",
       "site": "https://eigenlaut.app",
-      "caseStudy": false
+      "caseStudy": true
     },
     {
       "id": "identflow",
@@ -103,7 +129,20 @@
       "stack": ["Python", "Keycloak", "Docker"],
       "repo": null,
       "site": null,
-      "caseStudy": false
+      "caseStudy": true
+    },
+    {
+      "id": "saas-management",
+      "name": "SaaS-Management",
+      "kind": "product",
+      "service": "workspace",
+      "audiences": ["smb"],
+      "pitch_de": "Zeigt, welche Cloud-Apps im Unternehmen genutzt werden, wer Zugriff hat und welche Lizenzen brachliegen.",
+      "summary_en": "Discovery-first SaaS management: apps, access paths and licences from Google Workspace, Entra ID and CSV imports; read-only by default, append-only audit log.",
+      "stack": ["Python", "FastAPI", "Google Workspace Admin SDK", "Microsoft Entra ID", "Docker"],
+      "repo": null,
+      "site": null,
+      "caseStudy": true
     },
     {
       "id": "regalplaner3d",
@@ -116,7 +155,7 @@
       "stack": ["React", "TypeScript", "Vite", "Cloudflare Workers", "D1"],
       "repo": null,
       "site": "https://regalplaner3d.de",
-      "caseStudy": false
+      "caseStudy": true
     },
     {
       "id": "gardenplaner3d",
@@ -142,7 +181,7 @@
       "stack": ["Swift", "Kimai API"],
       "repo": "https://github.com/weidhaus/Chronato",
       "site": null,
-      "caseStudy": false
+      "caseStudy": true
     },
     {
       "id": "ntfy-inbox",
