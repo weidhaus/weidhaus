@@ -14,7 +14,7 @@ Neu ist Rephrase. Sagen Sie nach einer kurzen Pause „umformulieren“, „als 
 
 ## Was in einem Mac steckt
 
-Die Spracherkennung läuft auf der Neural Engine, dem Teil des Apple-Chips, der für KI-Berechnungen gebaut ist. Das Standardmodell Parakeet versteht 25 europäische Sprachen, Deutsch eingeschlossen; wahlweise läuft auch OpenAIs Whisper. Parakeet ist rund 480 MB groß und wird einmal geladen.
+Die Spracherkennung läuft auf der Neural Engine, dem Teil des Apple-Chips, der für KI-Berechnungen gebaut ist. Das Standardmodell Parakeet versteht 25 europäische Sprachen, Deutsch eingeschlossen; wahlweise läuft auch Whisper. Parakeet ist rund 480 MB groß und wird einmal geladen.
 
 HoldFn ist meine erste Mac-App, von Grund auf gebaut, und die erste, die ich veröffentlicht habe. Ich möchte damit zeigen, wie viel mehr ein ganz normaler Mac kann, als die meisten ihm zutrauen.
 
