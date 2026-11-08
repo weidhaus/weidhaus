@@ -119,8 +119,8 @@
       "caseStudy": true
     },
     {
-      "id": "identflow",
-      "name": "identflow",
+      "id": "idenflow",
+      "name": "idenflow",
       "kind": "product",
       "service": "workspace",
       "audiences": ["smb"],

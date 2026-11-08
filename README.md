@@ -27,7 +27,7 @@ Freelance work and case studies: [weidhaus.com](https://weidhaus.com) · Contact
 ### Google Workspace & HR sync
 
 - **Eigenlaut**: On-brand Gmail signatures for Google Workspace: one template, filled from the directory and kept in step in every mailbox. Hosted on Cloudflare or self-hosted (AGPL-3.0); the earlier Apps Script version is the linked repo. `TypeScript · Cloudflare Workers · Google Workspace Admin SDK` · [site](https://eigenlaut.app) · [code](https://github.com/weidhaus/Gmail-Signature-Manager-for-Google-Workspace)
-- **identflow**: Multi-tenant SaaS that keeps Google Workspace in line with Personio: changes as a reviewable plan, joiner, mover and leaver playbooks, per-tenant encryption, a tamper-evident audit log and Google sign-in instead of Keycloak. v2, rebuilt from scratch, built to run on Google Cloud in Frankfurt. `Python · FastAPI · PostgreSQL · React · Google Cloud`
+- **idenflow**: Multi-tenant SaaS that keeps Google Workspace in line with Personio: changes as a reviewable plan, joiner, mover and leaver playbooks, per-tenant encryption, a tamper-evident audit log and Google sign-in instead of Keycloak. v2, rebuilt from scratch, built to run on Google Cloud in Frankfurt. `Python · FastAPI · PostgreSQL · React · Google Cloud`
 - **SaaS-Management**: Discovery-first SaaS management: apps, access paths and licences from Google Workspace, Entra ID and CSV imports; read-only by default, append-only audit log. `Python · FastAPI · Google Workspace Admin SDK · Microsoft Entra ID · Docker`
 
 ### Web & native products
