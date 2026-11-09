@@ -27,8 +27,8 @@ Freelance work and case studies: [weidhaus.com](https://weidhaus.com) · Contact
 <table>
 <tr><td width="56"><img src="https://weidhaus.com/logos/meetfacts.svg" width="44" height="44" alt=""></td><td><b>Meetfacts</b><br>Local-first macOS meeting recorder: mic and system audio as separate tracks, on-device transcription, speaker-tagged transcripts.<br><sub>Swift · macOS · on-device ASR</sub></td><td><a href="https://weidhaus.com/projekte/meetfacts/">Case study</a><br><a href="https://meetfacts.com">Site</a></td></tr>
 <tr><td width="56"><img src="https://weidhaus.com/logos/holdfn.svg" width="44" height="44" alt=""></td><td><b>HoldFn</b><br>Push-to-talk dictation daemon for macOS with on-device transcription; text is inserted at the cursor.<br><sub>Swift · macOS · on-device ASR</sub></td><td><a href="https://weidhaus.com/projekte/holdfn/">Case study</a><br><a href="https://holdfn.com">Site</a></td></tr>
-<tr><td width="56"></td><td><b>meetartifacts</b><br>Matches meeting notes to CRM deals and uploads them, with Google Calendar integration.<br><sub>TypeScript · HubSpot API · Google Calendar · Docker</sub></td><td></td></tr>
-<tr><td width="56"></td><td><b>ntfy inbox</b><br>Self-hosted topic inventory and searchable report archive for your own ntfy server, with read-only MCP tools.<br><sub>Python · MCP · ntfy</sub></td><td><a href="https://github.com/weidhaus/ntfy-inbox">Code</a></td></tr>
+<tr><td width="56"><img src="https://weidhaus.com/logos/meetartifacts.svg" width="44" height="44" alt=""></td><td><b>meetartifacts</b><br>Matches meeting notes to CRM deals and uploads them, with Google Calendar integration.<br><sub>TypeScript · HubSpot API · Google Calendar · Docker</sub></td><td></td></tr>
+<tr><td width="56"><img src="https://weidhaus.com/logos/ntfy-inbox.svg" width="44" height="44" alt=""></td><td><b>ntfy inbox</b><br>Self-hosted topic inventory and searchable report archive for your own ntfy server, with read-only MCP tools.<br><sub>Python · MCP · ntfy</sub></td><td><a href="https://github.com/weidhaus/ntfy-inbox">Code</a></td></tr>
 </table>
 
 ### Google Workspace & HR sync
