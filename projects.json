@@ -86,20 +86,6 @@
       "caseStudy": true
     },
     {
-      "id": "steuerdocs",
-      "name": "steuerdocs",
-      "purpose_de": "Belegsortierung",
-      "kind": "tool",
-      "service": "ai",
-      "audiences": ["smb"],
-      "pitch_de": "KI sortiert alle Belege eines Steuerjahres in Paperless vor, Unsicheres landet in einer Prüfliste.",
-      "summary_en": "Self-hosted LLM triage for Paperless-NGX: tags every document of a tax year, recall-first, with a review queue.",
-      "stack": ["Python", "Paperless-NGX", "LLM APIs", "Docker"],
-      "repo": null,
-      "site": null,
-      "caseStudy": true
-    },
-    {
       "id": "meetartifacts",
       "name": "meetartifacts",
       "purpose_de": "CRM-Notizen",
@@ -168,20 +154,6 @@
       "repo": null,
       "site": "https://regalplaner3d.de",
       "caseStudy": true
-    },
-    {
-      "id": "gardenplaner3d",
-      "name": "Gartenplaner 3D",
-      "purpose_de": "Gartenplanung",
-      "kind": "product",
-      "service": "product",
-      "audiences": [],
-      "pitch_de": "Den eigenen Garten im Browser in 3D planen, mit Mengenliste.",
-      "summary_en": "Browser-based 3D garden planner: terrain, house, plants, paths, quantity list; runs fully client-side.",
-      "stack": ["React", "TypeScript", "Vite", "Cloudflare Workers"],
-      "repo": null,
-      "site": null,
-      "caseStudy": false
     },
     {
       "id": "chronato",
