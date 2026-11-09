@@ -28,8 +28,6 @@ Jede Änderung landet im Audit-Log. Einträge lassen sich dort weder ändern noc
 
 Mails verschickt idenflow über Gmail, aus einem Postfach Ihrer eigenen Domain. Neu ist auch die Admin-Oberfläche, mit hellem und dunklem Modus und eigenem Logo. Die SaaS-Version ist für Google Cloud in Frankfurt (europe-west3) gebaut. Version 2 ist noch nicht in Betrieb.
 
-Inzwischen hat idenflow eine eigene Website: [idenflow.com](https://idenflow.com). Das Repository ist umgezogen und liegt jetzt unter weidhaus/idenflow auf GitHub.
-
 ## Was das für Sie heißt
 
 Mein Ziel ist, dass idenflow die zentrale Verbindung zwischen HR-System und den Konten Ihrer Mitarbeitenden wird. Wenn bei Ihnen beides getrennt gepflegt wird und On- und Offboarding an Checklisten hängen, lässt sich das automatisieren, mit einer Freigabe überall dort, wo ein Mensch entscheiden soll.
