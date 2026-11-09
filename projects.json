@@ -119,14 +119,14 @@
       "caseStudy": true
     },
     {
-      "id": "identflow",
-      "name": "identflow",
-      "kind": "tool",
+      "id": "idenflow",
+      "name": "idenflow",
+      "kind": "product",
       "service": "workspace",
       "audiences": ["smb"],
       "pitch_de": "Mitarbeiterdaten aus Personio automatisch in Google Workspace.",
-      "summary_en": "Identity sync from Personio to Google Workspace, with Keycloak OIDC login; in production use.",
-      "stack": ["Python", "Keycloak", "Docker"],
+      "summary_en": "Multi-tenant SaaS that keeps Google Workspace in line with Personio: changes as a reviewable plan, joiner, mover and leaver playbooks, per-tenant encryption, a tamper-evident audit log and Google sign-in instead of Keycloak. v2, rebuilt from scratch, built to run on Google Cloud in Frankfurt.",
+      "stack": ["Python", "FastAPI", "PostgreSQL", "React", "Google Cloud"],
       "repo": null,
       "site": null,
       "caseStudy": true
