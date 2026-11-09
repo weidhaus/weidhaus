@@ -132,15 +132,15 @@
       "caseStudy": true
     },
     {
-      "id": "saas-management",
-      "name": "SaaS-Management",
+      "id": "spoor",
+      "name": "Spoor",
       "kind": "product",
       "service": "workspace",
       "audiences": ["smb"],
-      "pitch_de": "Zeigt, welche Cloud-Apps im Unternehmen genutzt werden, wer Zugriff hat und welche Lizenzen brachliegen.",
-      "summary_en": "Discovery-first SaaS management: apps, access paths and licences from Google Workspace, Entra ID and CSV imports; read-only by default, append-only audit log.",
-      "stack": ["Python", "FastAPI", "Google Workspace Admin SDK", "Microsoft Entra ID", "Docker"],
-      "repo": null,
+      "pitch_de": "Findet über die Anmeldungen bei Google und Microsoft, welche SaaS-Apps im Unternehmen genutzt werden, wer Zugriff hat und welche Lizenzen brachliegen. Open Source.",
+      "summary_en": "Open-source SaaS discovery from the identity provider: finds the apps people use from sign-ins and OAuth grants in Google Workspace and Entra ID, plus CSV imports; access paths, licences, leavers with access; read-only by default, append-only audit log. AGPL-3.0.",
+      "stack": ["Python", "FastAPI", "React", "SQLite", "Google Workspace Admin SDK", "Microsoft Entra ID", "Docker"],
+      "repo": "https://github.com/weidhaus/spoor",
       "site": null,
       "caseStudy": true
     },
