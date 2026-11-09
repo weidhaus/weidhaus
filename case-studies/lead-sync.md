@@ -1,10 +1,10 @@
 ## Das Problem mit „angekommen“
 
-Eine Tabelle, eine Schnittstelle bei einem Partner, dazwischen Leads. Klingt nach einem Nachmittag Arbeit. Der Haken: Die Schnittstelle nimmt alles an. Sie prüft nur, ob die Felder ausgefüllt sind. Wer einen Lead zweimal schickt, hat ihn dort zweimal. Eine Quittung gibt es nicht. Wenn später jemand fragt, was wann geliefert wurde, hat die Gegenseite keine Antwort. Also muss die Antwort auf unserer Seite liegen.
+Ein Lead-Anbieter sammelt neue Leads in einer Tabelle und gibt sie an ein Kundenportal weiter. Eine Tabelle, eine Schnittstelle, dazwischen Leads. Klingt nach einem Nachmittag Arbeit. Der Haken: Die Schnittstelle nimmt alles an. Sie prüft nur, ob die Felder ausgefüllt sind. Wer einen Lead zweimal schickt, hat ihn dort zweimal. Eine Quittung gibt es nicht. Wenn später jemand fragt, was wann geliefert wurde, hat die Gegenseite keine Antwort. Also muss die Antwort auf unserer Seite liegen.
 
 ## Lieber einmal zu wenig als doppelt
 
-Die wichtigste Entscheidung in diesem Projekt war eine Abwägung. Bleibt nach einem Versand unklar, ob er angekommen ist, gibt es zwei Wege: noch einmal schicken und eine Dublette riskieren, oder anhalten und nachsehen. Lead-Sync hält an. Ein doppelter Lead liegt beim Partner und lässt sich nicht zurückholen. Ein angehaltener kostet eine Minute Prüfung.
+Die wichtigste Entscheidung in diesem Projekt war eine Abwägung. Bleibt nach einem Versand unklar, ob er angekommen ist, gibt es zwei Wege: noch einmal schicken und eine Dublette riskieren, oder anhalten und nachsehen. Lead-Sync hält an. Ein doppelter Lead liegt im Portal und lässt sich nicht zurückholen. Ein angehaltener kostet eine Minute Prüfung.
 
 Daraus folgt der Rest. Jede Zeile bekommt einen Fingerabdruck aus E-Mail, Telefonnummer, Datum und Name, und was einmal raus ist, geht nie wieder raus. Vor jedem Versand speichert der Dienst den genauen Inhalt der Anfrage, dazu Antwortcode, Versuche und Zeitpunkt. Aus diesem Protokoll entstehen der tägliche CSV-Export und jeder Bericht, den jemand nachfragt.
 

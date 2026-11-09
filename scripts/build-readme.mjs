@@ -1,4 +1,4 @@
-// Renders the project list in README.md from projects.json, between the projects markers.
+// Renders the project list in README.md from projects.json, between the projects markers: logos come from weidhaus.com\n// (projects.json `logo`), so a new logo shows here once the site serves it.
 // `node scripts/build-readme.mjs` writes it; `--check` exits 1 when README.md is stale.
 import { readFileSync, writeFileSync } from 'node:fs'
 
@@ -12,19 +12,31 @@ const SECTIONS = [
   ['product', 'Web & native products'],
 ]
 
-/** Builds the Markdown block for the given projects. */
+const SITE = 'https://weidhaus.com'
+const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+const link = (href, text) => `<a href="${href}">${text}</a>`
+
+/** One project as a table row: its logo from weidhaus.com, name, summary and stack, then its links. */
+function row(p) {
+  const logo = p.logo ? `<img src="${SITE}${p.logo}" width="44" height="44" alt="">` : ''
+  const who = p.kind === 'client' ? ' <sub>client project</sub>' : ''
+  const links = [
+    p.caseStudy && link(`${SITE}/projekte/${p.id}/`, 'Case study'),
+    p.site && link(p.site, 'Site'),
+    p.repo && link(p.repo, 'Code'),
+  ].filter(Boolean)
+  return `<tr><td width="56">${logo}</td><td><b>${esc(p.name)}</b>${who}<br>${esc(p.summary_en)}<br><sub>${esc(p.stack.join(' · '))}</sub></td><td>${links.join('<br>')}</td></tr>`
+}
+
+/** Builds the Markdown block for the given projects: the open-source repos first, then one table per service. */
 export function render(projects) {
   const out = []
+  const open = projects.filter((p) => p.repo)
+  if (open.length) out.push(`**Open source:** ${open.map((p) => `[${p.repo.split('/').pop()}](${p.repo})`).join(' · ')}`, '')
   for (const [service, title] of SECTIONS) {
     const items = projects.filter((p) => p.service === service)
     if (!items.length) continue
-    out.push(`### ${title}`, '')
-    for (const p of items) {
-      const links = [p.site && `[site](${p.site})`, p.repo && `[code](${p.repo})`].filter(Boolean)
-      const name = p.kind === 'client' ? `${p.name} (client project)` : `**${p.name}**`
-      out.push(`- ${name}: ${p.summary_en} \`${p.stack.join(' · ')}\`${links.length ? ` · ${links.join(' · ')}` : ''}`)
-    }
-    out.push('')
+    out.push(`### ${title}`, '', '<table>', ...items.map(row), '</table>', '')
   }
   return out.join('\n').trimEnd()
 }
