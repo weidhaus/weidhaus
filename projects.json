@@ -1,9 +1,10 @@
 {
-  "$comment": "Single source for the project showcase: weidhaus.com reads this file, README.md is generated from it (node scripts/build-readme.mjs). Entries with caseStudy: true have a German case study in case-studies/<id>.md. Client entries stay anonymous until the client agrees to be named.",
+  "$comment": "Single source for the project showcase: weidhaus.com reads this file, README.md is generated from it (node scripts/build-readme.mjs). purpose_de is the short purpose tag the site shows for every project. Entries with caseStudy: true have a German case study in case-studies/<id>.md. Client entries stay anonymous until the client agrees to be named.",
   "projects": [
     {
       "id": "sales-automation",
       "name": "Vertriebsautomatisierung",
+      "purpose_de": "Vertriebs-Pipeline",
       "kind": "client",
       "service": "automation",
       "audiences": ["smb", "founder"],
@@ -17,6 +18,7 @@
     {
       "id": "lead-sync",
       "name": "Lead-Sync",
+      "purpose_de": "Lead-Weitergabe",
       "kind": "client",
       "service": "automation",
       "audiences": ["smb", "founder"],
@@ -30,6 +32,7 @@
     {
       "id": "hubspot-monday-sync",
       "name": "HubSpot-Monday-Sync",
+      "purpose_de": "Veranstaltungsplanung",
       "kind": "client",
       "service": "automation",
       "audiences": ["smb"],
@@ -43,6 +46,7 @@
     {
       "id": "hubspot-calendar",
       "name": "Belegungsplan für HubSpot",
+      "purpose_de": "Hallenbelegung",
       "kind": "client",
       "service": "automation",
       "audiences": ["smb"],
@@ -56,6 +60,7 @@
     {
       "id": "meetfacts",
       "name": "Meetfacts",
+      "purpose_de": "Meeting-Transkription",
       "kind": "product",
       "service": "ai",
       "audiences": ["smb", "founder"],
@@ -69,6 +74,7 @@
     {
       "id": "holdfn",
       "name": "HoldFn",
+      "purpose_de": "Diktieren",
       "kind": "product",
       "service": "ai",
       "audiences": ["smb", "founder"],
@@ -80,21 +86,9 @@
       "caseStudy": true
     },
     {
-      "id": "steuerdocs",
-      "name": "steuerdocs",
-      "kind": "tool",
-      "service": "ai",
-      "audiences": ["smb"],
-      "pitch_de": "KI sortiert alle Belege eines Steuerjahres in Paperless vor, Unsicheres landet in einer Prüfliste.",
-      "summary_en": "Self-hosted LLM triage for Paperless-NGX: tags every document of a tax year, recall-first, with a review queue.",
-      "stack": ["Python", "Paperless-NGX", "LLM APIs", "Docker"],
-      "repo": null,
-      "site": null,
-      "caseStudy": true
-    },
-    {
       "id": "meetartifacts",
       "name": "meetartifacts",
+      "purpose_de": "CRM-Notizen",
       "kind": "tool",
       "service": "ai",
       "audiences": [],
@@ -108,6 +102,7 @@
     {
       "id": "gmail-signatures",
       "name": "Eigenlaut",
+      "purpose_de": "E-Mail-Signaturen",
       "kind": "product",
       "service": "workspace",
       "audiences": ["smb"],
@@ -121,6 +116,7 @@
     {
       "id": "idenflow",
       "name": "idenflow",
+      "purpose_de": "HR-Sync",
       "kind": "product",
       "service": "workspace",
       "audiences": ["smb"],
@@ -134,6 +130,7 @@
     {
       "id": "spoor",
       "name": "Spoor",
+      "purpose_de": "SaaS-Erkennung",
       "kind": "product",
       "service": "workspace",
       "audiences": ["smb"],
@@ -147,6 +144,7 @@
     {
       "id": "regalplaner3d",
       "name": "Regalplaner 3D",
+      "purpose_de": "Regalplanung",
       "kind": "product",
       "service": "product",
       "audiences": ["founder"],
@@ -158,21 +156,9 @@
       "caseStudy": true
     },
     {
-      "id": "gardenplaner3d",
-      "name": "Gartenplaner 3D",
-      "kind": "product",
-      "service": "product",
-      "audiences": [],
-      "pitch_de": "Den eigenen Garten im Browser in 3D planen, mit Mengenliste.",
-      "summary_en": "Browser-based 3D garden planner: terrain, house, plants, paths, quantity list; runs fully client-side.",
-      "stack": ["React", "TypeScript", "Vite", "Cloudflare Workers"],
-      "repo": null,
-      "site": null,
-      "caseStudy": false
-    },
-    {
       "id": "chronato",
       "name": "Chronato",
+      "purpose_de": "Zeiterfassung",
       "kind": "product",
       "service": "product",
       "audiences": ["smb"],
@@ -186,6 +172,7 @@
     {
       "id": "ntfy-inbox",
       "name": "ntfy inbox",
+      "purpose_de": "Push-Archiv",
       "kind": "tool",
       "service": "ai",
       "audiences": [],
