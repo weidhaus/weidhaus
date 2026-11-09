@@ -182,7 +182,7 @@
       "id": "chronato",
       "name": "Chronato",
       "purpose_de": "Zeiterfassung",
-      "facts_de": [["1 Klick", "startet einen Timer"], ["10 Min.", "ohne Eingabe, dann ruht die Zeit"], ["24 h", "dann stoppt ein Timer von selbst"]],
+      "facts_de": [["8 MB", "native Mac-App statt Browser-Tab"], ["5", "Werkzeuge, mit denen KI-Agenten ihre Zeit buchen"], ["3 Wege", "am iPhone, ohne die App zu öffnen"]],
       "logo": "/logos/chronato.png",
       "kind": "product",
       "service": "product",
