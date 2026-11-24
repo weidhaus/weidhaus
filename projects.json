@@ -89,7 +89,7 @@
       "id": "holdfn",
       "name": "HoldFn",
       "purpose_de": "Diktieren",
-      "facts_de": [["200–300 ms", "bis der Text am Cursor steht"], ["25", "Sprachen, erkannt auf dem Mac"], ["30 Tage", "Pro testen, ohne Konto"]],
+      "facts_de": [["0,14 s", "für 30 s Sprache, auf einem M5 Max"], ["25", "Sprachen, erkannt auf dem Mac"], ["30 Tage", "Pro testen, ohne Konto"]],
       "logo": "/logos/holdfn.svg",
       "kind": "product",
       "service": "ai",

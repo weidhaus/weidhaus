@@ -4,7 +4,7 @@ HoldFn begann als Versuch: Wie gut ist Spracherkennung inzwischen, wenn sie ganz
 
 ## Eine Taste ist die ganze Bedienung
 
-Sie klicken in ein Textfeld, egal in welcher App: Mail, Browser, Chat. Dann halten Sie die fn-Taste, sprechen und lassen los. Während Sie reden, zeigt eine kleine Leiste am unteren Bildschirmrand, dass HoldFn zuhört. Nach dem Loslassen steht der Text meist nach 200 bis 300 Millisekunden am Cursor. Einen Aufnahmeknopf gibt es nicht, auch kein Fenster, das man schließen muss. Das Diktieren ist kostenlos, ohne Zeitlimit und mit jedem Modell.
+Sie klicken in ein Textfeld, egal in welcher App: Mail, Browser, Chat. Dann halten Sie die fn-Taste, sprechen und lassen los. Während Sie reden, zeigt eine kleine Leiste unter dem Textcursor, dass HoldFn zuhört. Verrät eine App nicht, wo ihr Cursor steht, erscheint die Leiste am unteren Bildschirmrand. Nach dem Loslassen steht der Text am Cursor. Einen Aufnahmeknopf gibt es nicht, auch kein Fenster, das man schließen muss. Das Diktieren ist kostenlos, ohne Zeitlimit und mit jedem Modell.
 
 ## Was Pro dazu bringt
 
@@ -14,7 +14,7 @@ Neu ist Rephrase. Sagen Sie nach einer kurzen Pause „umformulieren“, „als 
 
 ## Was in einem Mac steckt
 
-Die Spracherkennung läuft auf der Neural Engine, dem Teil des Apple-Chips, der für KI-Berechnungen gebaut ist. Das Standardmodell Parakeet versteht 25 europäische Sprachen, Deutsch eingeschlossen; wahlweise läuft auch Whisper. Parakeet ist rund 480 MB groß und wird einmal geladen.
+Die Spracherkennung läuft auf der Neural Engine, dem Teil des Apple-Chips, der für KI-Berechnungen gebaut ist. Das Standardmodell Parakeet versteht 25 europäische Sprachen, Deutsch eingeschlossen; wahlweise läuft auch Whisper. Parakeet ist rund 480 MB groß und wird einmal geladen. Eine 30 Sekunden lange englische Aufnahme schreibt es auf einem M5 Max in 0,14 Sekunden ab.
 
 HoldFn ist meine erste Mac-App, von Grund auf gebaut, und die erste, die ich veröffentlicht habe. Ich möchte damit zeigen, wie viel mehr ein ganz normaler Mac kann, als die meisten ihm zutrauen.
 
